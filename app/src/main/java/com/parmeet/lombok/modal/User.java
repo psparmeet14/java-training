@@ -7,25 +7,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Getter @Setter @NoArgsConstructor
+@Getter @Setter
 @ToString(exclude = {"events"})
 @EqualsAndHashCode // In general, we should avoid using Lombok to generate the equals() and hashCode() methods for our JPA entities.
+@AllArgsConstructor
+@RequiredArgsConstructor
 public class User {
 
     private @Setter(AccessLevel.PROTECTED) Long id;
     private String firstName;
-    private String lastName;
-    private int age;
+    private final String lastName;
+    private final int age;
     private List<UserEvent> events;
 
     @Getter(lazy = true)
     private final Map<String, Long> transactions = getTransactions();
-
-    public User(String firstName, String lastName, int age) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age = age;
-    }
 
     private Map<String, Long> getTransactions() {
         final Map<String, Long> cache = new HashMap<>();
