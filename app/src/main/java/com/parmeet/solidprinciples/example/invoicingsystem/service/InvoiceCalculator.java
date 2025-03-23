@@ -1,7 +1,7 @@
-package com.parmeet.solidprinciples.srp.example.invoicingsystem.service;
+package com.parmeet.solidprinciples.example.invoicingsystem.service;
 
-import com.parmeet.solidprinciples.srp.example.invoicingsystem.model.Invoice;
-import com.parmeet.solidprinciples.srp.example.invoicingsystem.model.InvoiceItem;
+import com.parmeet.solidprinciples.example.invoicingsystem.model.Invoice;
+import com.parmeet.solidprinciples.example.invoicingsystem.model.InvoiceItem;
 
 /**
  * Calculates the total amount of an invoice

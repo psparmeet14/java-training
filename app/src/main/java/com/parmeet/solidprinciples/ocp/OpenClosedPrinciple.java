@@ -1,4 +1,4 @@
-package com.parmeet.solidprinciples;
+package com.parmeet.solidprinciples.ocp;
 
 /**
  * O in SOLID = Open-Closed Principle
@@ -14,7 +14,7 @@ package com.parmeet.solidprinciples;
  * Open for extension:
  * A software component should be extendable to add a new feature or to add a new behavior to it.
  *
- * Use interfaces
+ * Using abstraction (Use interfaces or abstract classes) - for decoupling.
  *
  * Key takeaways:
  * 1. Ease of adding new features.
@@ -26,9 +26,19 @@ package com.parmeet.solidprinciples;
  *
  * Caution:
  * 1. Do not follow the Open-Closed Principle blindly.
+ * (
+ * Avoid Over-Abstraction,
+ * Subjective Decision Making,
+ * Balance Flexibility and Simplicity
+ * )
  * 2. You will end up with a huge number of classes that can complicate your overall design.
- * 3. Make a subjective, rather than an objective decision.
+ * 3. Make a subjective, rather than an objective decision. (Use OCP where it makes sense - when you expect that requirements
+ * may evolve. Evaluate the likelihood of change versus the overhead of additional classes. If you're designing for a highly
+ * volatile domain (like multiple invoice formats), abstraction is beneficial.
  *
+ * -> Strive for a design that if flexible enough to accommodate change without making the system so fragmented
+ * that understanding it becomes a challenge. This requires thoughtful judgment about the trade-offs between
+ * extensibility and maintainability.
  */
 public class OpenClosedPrinciple {
 }

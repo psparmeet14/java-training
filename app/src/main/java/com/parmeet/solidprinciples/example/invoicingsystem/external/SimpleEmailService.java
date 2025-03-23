@@ -1,4 +1,4 @@
-package com.parmeet.solidprinciples.srp.example.invoicingsystem.external;
+package com.parmeet.solidprinciples.example.invoicingsystem.external;
 
 public class SimpleEmailService implements EmailService {
     @Override

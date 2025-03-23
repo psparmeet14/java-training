@@ -1,7 +1,7 @@
-package com.parmeet.solidprinciples.srp.example.invoicingsystem.service;
+package com.parmeet.solidprinciples.example.invoicingsystem.service;
 
-import com.parmeet.solidprinciples.srp.example.invoicingsystem.external.EmailService;
-import com.parmeet.solidprinciples.srp.example.invoicingsystem.model.Invoice;
+import com.parmeet.solidprinciples.example.invoicingsystem.external.EmailService;
+import com.parmeet.solidprinciples.example.invoicingsystem.model.Invoice;
 
 /**
  * Sends the formatted invoice via email. It depends on an abstraction for email sending

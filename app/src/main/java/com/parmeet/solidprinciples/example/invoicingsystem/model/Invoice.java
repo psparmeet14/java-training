@@ -1,4 +1,4 @@
-package com.parmeet.solidprinciples.srp.example.invoicingsystem.model;
+package com.parmeet.solidprinciples.example.invoicingsystem.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
