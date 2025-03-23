@@ -5,6 +5,9 @@ package com.parmeet.solidprinciples;
  *
  * "Software components should be closed for modification, but open for extension"
  *
+ * - Software entities should be open for extension but closed for modification
+ * - Allows new changes without modifying existing code.
+ *
  * Closed for modification:
  * New features getting added to the software component, should NOT have to modify existing code.
  *
