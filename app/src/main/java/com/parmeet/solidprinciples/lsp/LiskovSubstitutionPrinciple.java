@@ -1,11 +1,17 @@
-package com.parmeet.solidprinciples;
+package com.parmeet.solidprinciples.lsp;
 
 /**
  * L in SOLID = Liskov Substitution Principle
  *
- * "Objects should be replaceable with their subtypes without affecting the correctness of the program"
+ * - "Objects should be replaceable with their subtypes without affecting the correctness of the program"
+ * - "Objects of a superclass should be replaceable with the objects of a subclass without affecting the correctness
+ * of the program"
+ * - "Sub classes / Derived classes must be substitutable for their base classes without affecting the correctness of
+ * the program"
  *
- * Inheritence = Is-A way of thinking.
+ *
+ *
+ * Inheritance = Is-A way of thinking.
  *
  * Liskov Substitution Principle changes the 'Is-A' way of thinking
  *

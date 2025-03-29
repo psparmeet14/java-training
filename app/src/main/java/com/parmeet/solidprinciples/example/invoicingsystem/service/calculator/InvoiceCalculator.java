@@ -1,4 +1,4 @@
-package com.parmeet.solidprinciples.example.invoicingsystem.service;
+package com.parmeet.solidprinciples.example.invoicingsystem.service.calculator;
 
 import com.parmeet.solidprinciples.example.invoicingsystem.model.Invoice;
 import com.parmeet.solidprinciples.example.invoicingsystem.model.InvoiceItem;

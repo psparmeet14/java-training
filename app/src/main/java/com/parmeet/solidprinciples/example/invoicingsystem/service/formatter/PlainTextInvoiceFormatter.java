@@ -1,7 +1,8 @@
-package com.parmeet.solidprinciples.example.invoicingsystem.service;
+package com.parmeet.solidprinciples.example.invoicingsystem.service.formatter;
 
 import com.parmeet.solidprinciples.example.invoicingsystem.model.Invoice;
 import com.parmeet.solidprinciples.example.invoicingsystem.model.InvoiceItem;
+import com.parmeet.solidprinciples.example.invoicingsystem.service.formatter.InvoiceFormatter;
 
 /**
  * Formats an invoice into a printable string

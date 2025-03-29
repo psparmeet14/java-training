@@ -5,6 +5,11 @@ import com.parmeet.solidprinciples.example.invoicingsystem.external.SimpleEmailS
 import com.parmeet.solidprinciples.example.invoicingsystem.model.Invoice;
 import com.parmeet.solidprinciples.example.invoicingsystem.model.InvoiceItem;
 import com.parmeet.solidprinciples.example.invoicingsystem.service.*;
+import com.parmeet.solidprinciples.example.invoicingsystem.service.calculator.InvoiceCalculator;
+import com.parmeet.solidprinciples.example.invoicingsystem.service.formatter.HTMLInvoiceFormatter;
+import com.parmeet.solidprinciples.example.invoicingsystem.service.formatter.InvoiceFormatter;
+import com.parmeet.solidprinciples.example.invoicingsystem.service.formatter.PlainTextInvoiceFormatter;
+import com.parmeet.solidprinciples.example.invoicingsystem.service.mailer.InvoiceMailer;
 
 import java.util.List;
 

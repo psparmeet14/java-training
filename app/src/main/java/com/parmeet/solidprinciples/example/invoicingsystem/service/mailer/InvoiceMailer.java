@@ -1,4 +1,4 @@
-package com.parmeet.solidprinciples.example.invoicingsystem.service;
+package com.parmeet.solidprinciples.example.invoicingsystem.service.mailer;
 
 import com.parmeet.solidprinciples.example.invoicingsystem.external.EmailService;
 import com.parmeet.solidprinciples.example.invoicingsystem.model.Invoice;

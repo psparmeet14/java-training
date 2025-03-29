@@ -1,4 +1,4 @@
-package com.parmeet.solidprinciples.example.invoicingsystem.service;
+package com.parmeet.solidprinciples.example.invoicingsystem.service.formatter;
 
 import com.parmeet.solidprinciples.example.invoicingsystem.model.Invoice;
 

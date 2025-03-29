@@ -9,7 +9,7 @@ package com.parmeet.solidprinciples.srp;
  * Every software component should have one and only one responsibility.
  * - component can be a class, a method, or a module.
  *
- * As per uncle Bob:
+ * As per Uncle Bob:
  * Every software component should have one and only one reason to change
  *
  * SRP enhances
