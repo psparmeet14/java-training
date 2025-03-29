@@ -16,6 +16,16 @@ package com.parmeet.solidprinciples.lsp;
  * Liskov Substitution Principle changes the 'Is-A' way of thinking
  *
  * "If it looks like a duck and quacks like a duck but it needs batteries, you probably have the wrong abstraction!"
+ * Caution when using LSP:
+ * - Careful Inheritance: Inheritance must be used only when the subclass truly conforms to the base class's contract.
+ * - Testing the Substitution
+ * - Balance with Other Principles: While LSP (and SOLID in general) drives modular and flexible design, applying these
+ * principles blindly can lead to unnecessary complexity. Sometimes a simpler design (even if less "pure") is more practical.
+ * Make a subjective decision based on hte domain requirements and the likelihood of change.
+ * Avoid creating an explosion of classes where each tiny variation gets its own subclass unless you have a strong
+ * reason to expect future extensions.
+ * - Prefer composition over inheritance: In many cases, using composition (having objects hold other objects that implement
+ * behavior) can achieve similar flexibility without the risks that come with a deep or fragile inheritance hierarchy.
  *
  * Solution 1: (racing car example)
  * Break the hierarchy if it fails the substitution test.

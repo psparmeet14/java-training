@@ -39,3 +39,22 @@ abstraction—rather than applying the principle in every scenario.
 
 This example demonstrates how combining SRP and OCP can lead to a robust, maintainable design that remains adaptable to
 new requirements while avoiding the pitfalls of over-engineering.
+
+## Summary LSP
+### LSP in Our Invoicing System:
+By ensuring that every discount strategy (a subclass of DiscountStrategy) returns a valid discount value 
+(i.e., a value between 0 and the invoice total), we guarantee that client code like InvoiceProcessor works correctly 
+no matter which discount strategy is used.
+
+### Key Principle:
+"Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program."
+This means that any subclass must honor the behavioral expectations of its parent type.
+
+### Design Solutions:
+Break the Hierarchy: Redesign or refactor subclasses that fail the substitution test.
+Tell, Don't Ask: Restructure your code so that objects encapsulate behavior and validate themselves, 
+reducing the need for external checks.
+
+### Caution:
+Use LSP judiciously. Overusing inheritance or over-complicating class hierarchies can lead to a fragmented design.
+Often, a balanced approach that considers both the need for extensibility and the simplicity of the overall design is best.

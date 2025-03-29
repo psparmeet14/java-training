@@ -13,7 +13,7 @@ public class InvoiceProcessor {
         double discount = strategy.calculateDiscount(invoice);
         // Validate that the discount is withing acceptable bounds.
         if (discount < 0 || discount > total) {
-            throw new IllegalArgumentException("Invalid discount calculated: " + discount));
+            throw new IllegalArgumentException("Invalid discount calculated: " + discount);
         }
         return total - discount;
     }
